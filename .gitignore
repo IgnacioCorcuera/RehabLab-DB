@@ -1,0 +1,28 @@
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+.env
+.venv/
+venv/
+*.sqlite3
+
+# Node
+node_modules/
+npm-debug.log*
+yarn.lock
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Docker volumes
+**/pgdata/
+**/mongodata/
+
+# IDE
+.vscode/
+.idea/
